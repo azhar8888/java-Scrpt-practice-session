@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function checkMyEligibilty() {
+            let ageElement = document.getElementById("age");
+            let msgElement = document.getElementById("msg");
+            msgElement.innerHTML=ageElement.value>170 ? "invalid" :
+            msgElement.innerHTML = ageElement.value > 18 ? "you can vote" : "not eligible"
+
+        }
+    </script>
+</head>
+
+<body>
+    <input id="age" type="number" placeholder="enter your age." />
+    <button onclick="checkMyEligibilty()">vote</button>
+    <p id="msg"></p>
+</body>
+
+</html>

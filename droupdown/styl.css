@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+margin: 0;
+box-sizing: border-box; }
+
+body{
+background-image:url(pexels-christina-morillo-1181271.jpg);
+background-size: cover;
+background-position: center;
+
+height: 100vh;}
+
+.navbar{
+    background-color: aqua;
+    text-align:center;
+    
+}
+.navbar ul{display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.navbar ul li{
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.act ,.navbar ul li a:hover{
+    background-color: chartreuse;
+    border-radius: 3px;
+}
+
+

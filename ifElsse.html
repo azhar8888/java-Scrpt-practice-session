@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        const hour= new Date().getHours();
+        console.log("current time::",hour);
+        let greetinng;
+        if (hour < 18) {greetinng="good mornigg";
+    } else{greetinng="good evevning";}
+
+        {document.getElementById("demo").innerHTML=greetinng;
+    }
+    </script>
+</body>
+</html
